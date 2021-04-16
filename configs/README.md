@@ -11,6 +11,7 @@ A description of all configuration parameters if given below.
 | data_set | Whether nuscenes, camra or coco for the specific data sets | nuscenes |
 | data_path | Path to the data set | ~/data/nuscenes |
 | save_val_img_path | Path so save evaluated validation images after every epoch | True / False |
+| no_data_sets | Number of subsets (blobs) made available in the data folder for NuScenes |
 | n_sweeps | Number of radar time steps used | 1 - 26 |
 | radar_projection_height | Height of projected radar lines in m | 0.01 -> points, 1000 -> "barcode", or meters in between |
 | noise_filter_perfect | Perfect noise filter based on ground truth | True / False|
